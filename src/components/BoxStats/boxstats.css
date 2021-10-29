@@ -1,0 +1,26 @@
+.box-stats{ 
+  margin-top: 2rem;
+  border-radius: .4em;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, .85);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+.stats-container{
+  display: flex;
+  flex-direction: column;
+}
+.stat-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  text-align: left;
+  align-items: center;
+}
+.stat-container h5{
+  color: white;
+  margin: .75em 0;
+  text-transform: uppercase;
+}
+.progress{
+  height: 1.25rem;
+  font-size: 1rem;
+}

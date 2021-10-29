@@ -1,0 +1,33 @@
+.img-hero{
+  width: 480px;
+  height: 640px;
+  min-width: 160px;
+  min-height: 210px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, .85);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+@media screen and (min-width:300px){
+  .img-hero{
+    width: 240px;
+    height: 320px;
+  }
+}
+@media screen and (min-width:576px){
+  .img-hero{
+    width: 320px;
+    height: 400px;
+  }
+}
+@media screen and (min-width:768px){
+  .img-hero{
+    width: 360px;
+    height: 480px;
+  }
+}
+@media screen and (min-width:1200px){
+  .img-hero{
+    width: 480px;
+    height: 640px;
+  }
+}

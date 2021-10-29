@@ -1,0 +1,28 @@
+.login{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-login{
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, .75);
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 80%;
+
+}
+.error{
+  color: rgba(248, 17, 17, 0.7);
+  padding-top: .25rem;
+  margin: 0;
+}
+@media (min-width:1200px){
+  .box-login{
+    width: 40%;
+  }
+}
+
