@@ -1,6 +1,5 @@
 import React from 'react'
 import { Redirect, Route } from 'react-router'
-// import auth from '../auth/auth'
 
 function ProtectedRoute( { component: Component, ...rest}) {
   return (
